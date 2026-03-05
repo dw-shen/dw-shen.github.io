@@ -47,13 +47,20 @@
 		ol li{
   			padding: 4px 0;
 		}
+		.image-and-text {
+			display: flex;  /* 使用 flex 布局 */
+			align-items: center;  /* 垂直居中对齐 */
+		}
+		.image-and-text img {
+			margin-right: 10px;  /* 图片和文本之间留出一定的空白 */
+		}
 	</style>
 </head>
 <body>
 	<h1 id="homepage">Welcome to Dawei Shen's Homepage!</h1>
-	<img src="sdw_photo.jpg" alt="my photo" />
 	<h2 id="address">Address</h2>
-	<div>
+	<div class="image-and-text">
+		<img src="sdw_photo.jpg" alt="my photo" />
 		<p>Dawei Shen</p>
 		<p>School of Mathematics and Statistics</p>
 		<p>Henan University</p>
